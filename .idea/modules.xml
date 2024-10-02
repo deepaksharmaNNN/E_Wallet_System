@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/E-Wallet-System.iml" filepath="$PROJECT_DIR$/E-Wallet-System.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NotificationService/NotificationService.iml" filepath="$PROJECT_DIR$/NotificationService/NotificationService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NotificationService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/NotificationService.main.iml" />
     </modules>
   </component>
 </project>
