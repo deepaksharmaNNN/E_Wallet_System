@@ -35,7 +35,7 @@ public class User implements UserDetails {
     @Column(length = 50, unique = true)
     String email;
 
-    @Column(length = 10, unique = true, nullable = false)
+    @Column(length = 20, unique = true, nullable = false)
     String phoneNo;
 
     @Column(length = 100, nullable = false)
@@ -53,7 +53,7 @@ public class User implements UserDetails {
     @Enumerated(EnumType.STRING)
     UserIdentificationType identificationType;
 
-    @Column(length = 20, unique = true, nullable = false)
+    @Column(length = 20, unique = true)
     String identificationValue;
 
     @CreationTimestamp
