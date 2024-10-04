@@ -67,4 +67,8 @@ public class UserService implements UserDetailsService {
         log.info("User creation event published to kafka: {}", objectNode);
         return user;
     }
+
+    public User getUserByPhoneNo(String phoneNo) {
+        return userRepository.findByPhoneNo(phoneNo);
+    }
 }

@@ -12,6 +12,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TransactionService" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/TransactionService" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/UserService" />
         <option name="gradleHome" value="" />
         <option name="gradleJvm" value="21" />

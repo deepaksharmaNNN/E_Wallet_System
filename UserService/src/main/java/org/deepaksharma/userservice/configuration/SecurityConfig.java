@@ -19,7 +19,7 @@ public class SecurityConfig {
         http
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(HttpMethod.POST, "/user").permitAll()
-//                        .requestMatchers(HttpMethod.GET, "/user").hasAnyAuthority("USER", "SERVICE")
+                        .requestMatchers(HttpMethod.GET, "/user").hasAuthority("USER")
                         .anyRequest().permitAll())
                 .formLogin(withDefaults()) // browser based login
                 .httpBasic(withDefaults()) // basic authentication
