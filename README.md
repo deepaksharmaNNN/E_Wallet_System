@@ -5,7 +5,6 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Architecture](#architecture)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
@@ -35,10 +34,6 @@ The E-Wallet System is a microservices-based application developed using Java an
 - **Feign Client**
 - **Gradle**
 - **IntelliJ IDEA**
-
-## Architecture
-
-![Architecture Diagram](link-to-your-architecture-diagram.png) *(Optional: Add an architecture diagram if you have one)*
 
 ## Setup and Installation
 
